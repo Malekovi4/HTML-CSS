@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>лмобайл салон связи</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header> 
+	<!--Хеадер, бедный мой)-->
+	<nav class="container">
+		<a class="logo">
+			<div class="logo-main">
+				<img src="img/logo.jpg" alt="альтернативный текст">
+		 	</div>
+		 	<div class="whatsap">
+				<img src="img/whatsap.png" alt="альтернативный текст">	
+			</div>
+			<div class="instargram">
+				<img src="img/instagram.png">
+
+	        <li><a href="index.html">Главная </a></li>
+	        <li><a href="index3.html">Наши услуги</a></li>
+	        <li><a href="index2.html">Контакты</a></li>
+	    </ul>
+		</a>
+	</nav>
+</header>
+<!--Все что снизу, слайдер-->
+
+<div class="background">
+<section class='galeria'>
+  <input type="radio" id="uno" value="1" name="tractor" checked='checked' />    
+<input type="radio" id="dole" value="2" name="tractor" />      
+<input type="radio" id="tele" value="3" name="tractor" />
+  
+  <article class='card una'>
+  	<!--
+    <h2 class='entypo-tag'>Ксерокопия и фотопечать</h2>
+      <p>1</p> -->
+
+    <label for='dole' class='entypo-left-bold otra'></label>
+    <label for='tele' class='entypo-right-bold otra'></label>
+    <label for='uno' class='entypo-arrows-ccw afin'></label>  
+  </article>
+  
+  <article class='card dos'>
+  <!--
+    <h2 class='entypo-feather'>Фотографии</h2>
+      <p>1</p> -->
+ 
+    <label for='tele' class='entypo-left-bold otra'></label>
+    <label for='uno' class='entypo-right-bold otra'></label>
+    <label for='dole' class='entypo-arrows-ccw afin'></label>  
+  </article>
+  
+  <article class='card tres'>
+ <!--
+    <h2 class='entypo-address'>Ремонт телефонов</h2>
+      <p>21</p>	-->
+ 
+    <label for='uno' class='entypo-left-bold otra'></label>
+    <label for='dole' class='entypo-right-bold otra'></label>
+    <label for='tele' class='entypo-arrows-ccw afin'></label>  
+  </article>
+
+</section>
+</div>
+<article class="container">
+
+<div class = "foto">
+	<img src = "https://98.img.avito.st/640x480/5068800098.jpg	" class="ds1">
+	<img src = "https://www.px63.ru/uploads/product/000/68/orig.jpg" class="ds">
+	<img src = "https://do.ngs24.ru/preview//do/bc42761c0faa4dea088ec5838bc06638_1520580725_1000_665.jpg" class="ds2">
+</div>
+
+
+<div class="text_under_photo">
+	<div class="photo-create">
+		<p align="center"> Фотопечать</p>
+	</div>
+	<div class="photo-copy"> 
+		<p align="center">Ксерокопия</p>
+	</div>
+	<div class="repair-phone1">
+		<p align="center">Починка телефонов</p>
+	</div>
+
+</div>
+
+
+<div class="description">
+	<div class="description_photo_paint">
+		<p align="center">Мы давно занимаемся фотопечатью, у нас самые лучшие принтеры и выкококачественно подобранные краски</p>
+	</div>
+	<div  class="description_photocopy" 	>
+		<p align="center">Мы давно занимаемся ксерокопией, у нас самые лучшие принтеры и выкококачественно подобранные краски</p>
+	</div>
+	<div class="description_repair_phone">
+		<p align="center">Мы давно занимаемся ремонтом телефонов, у нас самые лучшие работники и выкококачественные результаты	</p>
+	</div>
+</div>
+</article>
+
+
+
+<!--MAP at down-->
+<article class="map_id">
+	<div class="container">
+		<div class="d">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1875.6985718276637!2d37.44128065490103!3d56.00838344484813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b53c543a935f49%3A0xcc45543f1c28721e!2z0YPQuy4g0JrQsNGC0Y7RiNC60LgsIDQzLCDQm9C-0LHQvdGPLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNDE3MzI!5e0!3m2!1sru!2sru!4v1573829330200!5m2!1sru!2sru" width="40%" height="250" frameborder="0" style="border:0;" allowfullscreen="" class="map"></iframe>
+
+			<img src = "https://support.motocms.com/hc/en-us/article_attachments/205468038/5.png" width="200" height="250" class="map2">
+		</div>
+	</div>
+</article>
+<!-- Footer-->
+<footer class="footer">
+	<div class="container">
+		<div class="contact">
+			<div class="contact_label">
+			 	<p> Адресс: Россия, Г.Лобня, ул. Катюшки, 43.</p>
+			 	<p> Телефон: +7(925)-366-86-77</p>
+			</div>
+			<div class="contact_label2">
+				<b>email:lomobile@mail.ru</b>
+			 	<p> instagram: @cases_stores_</p>
+			</div>
+			<div class="messenger">
+				
+				<a href="https://www.instagram.com/cases_stores_/?igshid=q4jch4wodaqj"><img src="img/instagram.png"alt="" height="30px" class="instargram2"></a>
+				<a href=""><img src="img/whatsap.png"alt="" height="30px" class="whatsap2"></a>
+				
+			</div>
+		</div>
+		
+
+	</div>
+
+</footer>
+</body>
+</html>
